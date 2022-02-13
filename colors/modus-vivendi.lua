@@ -219,3 +219,6 @@ if vim.g.modus_moody_enable == 1 then
 	require('modus-themes.galaxyline').set_statusline(colors)
 end
 
+if vim.g.modus_feline_enable == 1 then
+	require('modus-themes.feline').set_statusline(colors)
+end
